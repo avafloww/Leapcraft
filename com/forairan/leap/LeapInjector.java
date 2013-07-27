@@ -31,8 +31,7 @@ public class LeapInjector {
             System.out.println("!! Leap: Starting Minecraft without Leap support!");
         }
 
-        if (false) { // Forge support disabled for release.
-        //if (forge) {
+        if (forge) {
             System.out.println("## Leap: Forge detected. Passing control to Forge instead of vanilla.");
 
             int tweakIndex = -1;
